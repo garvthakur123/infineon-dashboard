@@ -1,6 +1,7 @@
 # Infineon Project Dashboard Challenge
 
 A small full-stack POC for viewing projects from a CSV file, editing project comments, and persisting those comments in MySQL.
+Hosted Link: vercel.com/garvthakur123s-projects
 
 ## Features
 
