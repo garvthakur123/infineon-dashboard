@@ -1,0 +1,141 @@
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0 0;
+  gap: 16px;
+}
+
+.pagination__info {
+  font-size: 13px;
+  color: #888;
+  white-space: nowrap;
+}
+
+.pagination__info strong {
+  color: #555;
+}
+
+.pagination__controls {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.pagination__per-page {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.pagination__per-page-label {
+  font-size: 13px;
+  color: #888;
+  white-space: nowrap;
+}
+
+.pagination__per-page-select {
+  padding: 6px 10px;
+  border: 1px solid #dde0e4;
+  border-radius: 6px;
+  font-size: 13px;
+  color: #333;
+  background: #f9fafb;
+  cursor: pointer;
+  transition: border-color 0.2s ease;
+}
+
+.pagination__per-page-select:focus {
+  outline: none;
+  border-color: #0a8276;
+}
+
+.pagination__pages {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.pagination__btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 34px;
+  height: 34px;
+  padding: 0 8px;
+  border: 1px solid #e0e2e6;
+  border-radius: 8px;
+  background: #fff;
+  color: #555;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  transition:
+    background-color 0.15s ease,
+    border-color 0.15s ease,
+    color 0.15s ease,
+    box-shadow 0.15s ease;
+}
+
+.pagination__btn:hover:not(:disabled):not(.pagination__btn--active) {
+  background: #f0faf9;
+  border-color: #b2dfdb;
+  color: #0a8276;
+}
+
+.pagination__btn:disabled {
+  opacity: 0.35;
+  cursor: not-allowed;
+}
+
+.pagination__btn--active {
+  background: #0a8276;
+  border-color: #0a8276;
+  color: #fff;
+  cursor: default;
+  box-shadow: 0 1px 4px rgba(10, 130, 118, 0.25);
+}
+
+.pagination__btn svg {
+  width: 16px;
+  height: 16px;
+}
+
+.pagination__ellipsis {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  font-size: 14px;
+  color: #aaa;
+  user-select: none;
+}
+
+@media (max-width: 700px) {
+  .pagination {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+  }
+
+  .pagination__controls {
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 480px) {
+  .pagination__controls {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+  }
+
+  .pagination__pages {
+    justify-content: center;
+  }
+
+  .pagination__per-page {
+    justify-content: center;
+  }
+}
