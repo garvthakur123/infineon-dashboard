@@ -3,9 +3,16 @@ const { readProjectsFromCsv } = require("./csv");
 
 async function getProjects() {
   const projects = await readProjectsFromCsv();
-  const [comments] = await pool.query(
-    "SELECT project_code, comment FROM project_comments"
-  );
+
+  let comments = [];
+  try {
+    [comments] = await pool.query(
+      "SELECT project_code, comment FROM project_comments"
+    );
+  } catch (err) {
+    console.warn("DB unavailable, serving CSV data only:", err.message);
+    return projects;
+  }
 
   const commentMap = new Map(
     comments.map((row) => [row.project_code, row.comment])
