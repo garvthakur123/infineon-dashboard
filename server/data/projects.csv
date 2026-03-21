@@ -1,0 +1,16 @@
+project_code,project_name,project_lead_name,budget,last_milestone,next_milestone,status,resource_bookings,comment
+PRJ-001,Customer Portal Redesign,Anna Müller,120000,UX mockups approved,Frontend implementation complete,green,3 FTE until Q2 2026,On track – design handoff went smoothly
+PRJ-002,Data Warehouse Migration,Boris Chen,350000,Legacy schema documented,ETL pipeline v1 deployed,yellow,2 FTE + 1 contractor until Q3 2026,Delay due to data quality issues in source system
+PRJ-003,Mobile App Launch,Clara Fischer,95000,Beta testing started,App Store submission,green,2 FTE until Q1 2026,Beta feedback very positive
+PRJ-004,ERP Integration,David Nowak,210000,API specification finalized,Integration testing phase,red,4 FTE until Q4 2026,Blocked by third-party API instability
+PRJ-005,Cloud Cost Optimization,Elena Vogt,45000,Audit of current spend complete,Implement auto-scaling policies,green,1 FTE until Q2 2026,Quick wins already saved 15% on compute
+PRJ-006,HR Self-Service Portal,Fabian Richter,80000,Requirements gathered,Prototype ready for review,yellow,2 FTE until Q2 2026,Scope creep risk – need to re-prioritize backlog
+PRJ-007,Predictive Maintenance AI,Greta Hoffmann,175000,Model training on historical data,Pilot deployment on Line 3,green,2 FTE + 1 data scientist until Q3 2026,Model accuracy at 91% – above target
+PRJ-008,Supplier Onboarding Automation,Hassan Yilmaz,60000,Current process mapped,Workflow engine configured,yellow,1.5 FTE until Q2 2026,Waiting for legal review of new T&Cs
+PRJ-009,Cybersecurity Hardening,Irene Baxter,130000,Vulnerability scan completed,Patch rollout to production,red,3 FTE until Q2 2026,Critical findings require immediate action
+PRJ-010,BI Dashboard Refresh,Jonas Weber,55000,Stakeholder interviews done,Dashboard v2 in staging,green,1 FTE until Q1 2026,New visuals well received by management
+PRJ-011,Logistics Route Optimizer,Katja Seidel,90000,Algorithm prototype tested,Integration with TMS,yellow,2 FTE until Q3 2026,Performance bottleneck in route calculation
+PRJ-012,Customer 360 Platform,Lukas Brand,200000,Data model designed,CRM data ingestion live,green,3 FTE until Q4 2026,First unified customer view expected by June
+PRJ-013,Compliance Reporting Tool,Maria Engel,70000,Regulatory mapping complete,Automated report generation,yellow,1 FTE + 1 contractor until Q2 2026,New regulation added mid-project – adjusting scope
+PRJ-014,Factory Digital Twin,Niklas Kraft,310000,Sensor data pipeline deployed,3D visualization prototype,green,4 FTE until Q4 2026,Impressive demo at leadership review
+PRJ-015,Internal Knowledge Base,Olivia Braun,40000,Content audit finished,Search and tagging MVP,red,1 FTE until Q2 2026,Low adoption risk – need change management plan
